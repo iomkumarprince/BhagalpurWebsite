@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}
+
+.services {   
+    display: flex;
+    min-width: 700px;
+    height: 300px;
+    padding: 30px;
+    padding-top: 7.5rem;
+    gap: 140px;    
+
+}
+
+.service-item {   
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 25px;   
+    text-align: justify; 
+}
+
+.service-item h2 {
+    color: #333;
+}
+
+.service-item p {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.mail{
+    color: white;
+    text-decoration: none;
+}
